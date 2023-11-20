@@ -6,7 +6,7 @@ Prerequisite for running the application:
 - Visual studio 2022 Community.
 - RabbitMQ service installed and running.
 - Text file must be placed in Resources folder.
-- Text file name ise set in Partitioning.ServiceImplementations.DistributedFileSystem.fileName.
+- Text file name is set in Partitioning.ServiceImplementations.DistributedFileSystem.fileName.
   
 What could be done better:
 - Extract magic strings and repeated values in a constant class.
