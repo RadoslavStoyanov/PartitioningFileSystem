@@ -5,7 +5,9 @@ Prerequisite for running the application:
 - .NET 6 runtime and .NET 6 SDK.
 - Visual studio 2022 Community.
 - RabbitMQ service installed and running.
-
+- Text file must be placed in Resources folder.
+- Text file name ise set in Partitioning.ServiceImplementations.DistributedFileSystem.fileName.
+  
 What could be done better:
 - Extract magic strings and repeated values in a constant class.
 - OffsetService should not call directly DistributedFS.Instance.FileLength and DistributedFS.Instance.Threshold. This should be re-routed through a Load balancer.
